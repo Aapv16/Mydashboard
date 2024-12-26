@@ -211,7 +211,7 @@ p {
   z-index: -99;
   border: 1px solid#000000;
   border-radius: 30px;
-  filter: drop-shadow(10px 8px 10px #7b7b7b);
+  filter: drop-shadow(10px px 10px #dddddd);
 }
 
 /* media query */
@@ -250,7 +250,6 @@ p {
     width: 25rem;
     border-bottom: 1px solid var(--secondaryTextColor);
   }
-
 
   .container img {
     /* margin: -15rem -20rem;
