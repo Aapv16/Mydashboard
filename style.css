@@ -32,8 +32,14 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
 .navbar .container a {
   color: var(--secondaryTextColor);
+}
+
+#nav {
+  position: sticky; /* Gunakan sticky untuk menghindari perubahan posisi */
+  top: 0;
 }
 
 #hero {
@@ -107,7 +113,7 @@ body {
 
 /* page about */
 #about {
-  min-height: 100vh;
+  min-height: 140vh;
   padding-top: 7rem;
   background-color: var(--secondaryBackgroundColor);
 }
@@ -129,7 +135,7 @@ body {
 /* line akhir ke 03 */
 #about .row .education .line .line-01 {
   width: 1px;
-  height: 6.5rem;
+  height: 5rem;
   background-color: #000000;
   position: relative;
 }

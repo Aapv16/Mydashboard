@@ -39,6 +39,12 @@
     align-items: center;
     padding-left: 7rem;
   }
+
+  #about .cardcustom {
+    position: relative;
+    padding-left: 1rem;
+  }
+
   #about .card {
     box-shadow: 12px 11px 0px -4px rgba(255, 162, 0, 0.59);
     -webkit-box-shadow: 12px 11px 0px -4px rgba(255, 162, 0, 0.59);
