@@ -50,6 +50,10 @@ body {
   padding-top: 10rem;
 }
 
+/* .active {
+  color: #ffa200;
+} */
+
 /* btn */
 .btn-custom1 {
   background-color: var(--btnColor);
