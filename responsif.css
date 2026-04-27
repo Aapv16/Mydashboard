@@ -67,23 +67,25 @@
     gap: 3rem;
   }
   #skill .card {
+    border-radius: 15px 15px 5px 15px;
     background-color: var(--secondaryBackgroundColor);
     box-shadow: 12px 11px 0px -4px rgba(255, 162, 0, 0.59);
     -webkit-box-shadow: 12px 11px 0px -4px rgba(255, 162, 0, 0.59);
     -moz-box-shadow: 12px 11px 0px -4px rgba(255, 162, 0, 0.59);
   }
-  #skill .svg {
-    border-bottom: 1px solid var(--btnColor);
-    justify-content: center;
-    width: 5rem;
-    height: 3rem;
-    margin: auto 13.5rem;
-  }
-  #contact p {
-    text-align: justify !important;
-    justify-content: center;
-  }
 }
+#skill .svg {
+  border-bottom: 1px solid var(--btnColor);
+  justify-content: center;
+  width: 5rem;
+  height: 3rem;
+  margin: auto 13.5rem;
+}
+#contact p {
+  text-align: justify !important;
+  justify-content: center;
+}
+
 @media screen and (max-width: 576px) {
   #hero img {
     width: 80%;
