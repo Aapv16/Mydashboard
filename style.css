@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 :root {
   --primaryTextColor: #151414; /*Untuk title atau judul */
   --secondaryTextColor: #444442; /*Untuk teks biasa seperti paragraf contohnya */
@@ -31,6 +35,11 @@ body {
   background-color: var(--primaryBackgroundColor);
   background-size: cover;
   background-repeat: no-repeat;
+}
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 .navbar .container a {
@@ -111,13 +120,14 @@ body {
 /* start style untuk navbar */
 .nav-link.active {
   font-weight: 700;
+  /* background-color: #549dd4; */
   color: #ffa200 !important;
 }
 /* end navbar  */
 
 /* page about */
 #about {
-  min-height: 140vh;
+  min-height: 50vh;
   padding-top: 7rem;
   background-color: var(--secondaryBackgroundColor);
 }
@@ -155,6 +165,14 @@ body {
   position: absolute;
   left: -7px;
 }
+
+#about p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 11.5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-style: normal;
+}
 /* page about */
 
 hr {
@@ -180,7 +198,7 @@ hr {
   transition: all ease-in-out 0.1s;
 }
 #skill .card:hover {
-  background-color: #ffa20097;
+  background-color: #ffa20065;
   opacity: 100%;
   cursor: pointer;
   transition: all ease-in-out 0.1s;
@@ -219,15 +237,16 @@ p {
   background-size: cover;
   display: flex;
   z-index: -99;
-  border: 1px solid#000000;
-  border-radius: 30px;
+  border: 1px solid#a5a5a5;
+  border-bottom: 8px solid #ffa20097;
+  border-radius: 80px 160px 10px 80px;
   filter: drop-shadow(10px px 10px #dddddd);
 }
 
 /* media query */
 
 /* laptop */
-@media screen and (max-width: 922px) {
+@media screen and (min-width: 922px) {
   html {
     font-size: 75%;
   }
