@@ -41,6 +41,10 @@ p {
   font-weight: 400;
   font-style: normal;
 }
+a {
+  text-decoration: none;
+  color: var(--primaryTextColor);
+}
 
 .navbar .container a {
   color: var(--secondaryTextColor);
@@ -173,6 +177,40 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-style: normal;
 }
+
+.img-card {
+  height: 30vh;
+  border-radius: 10px;
+  border-bottom: 2px solid var(--secondaryTextColor);
+  background-position: top;
+  margin-bottom: 1rem;
+  background-image: url(./pok.png);
+  background-size: cover;
+  width: auto;
+}
+.img-card-tele {
+  height: 30vh;
+  border-radius: 10px;
+  border-bottom: 2px solid var(--secondaryTextColor);
+  background-position: top;
+  margin-bottom: 1rem;
+  background-image: url(./ino1.png);
+  background-size: cover;
+  width: auto;
+}
+.img-card-skill {
+  height: 30vh;
+  /* background-color: #549dd4; */
+  border-radius: 10px;
+  border-bottom: 2px solid var(--secondaryTextColor);
+  background-position: 50%;
+
+  margin-bottom: 1rem;
+  background-image: url(./skill.png);
+  background-size: cover;
+  width: 100%;
+}
+
 /* page about */
 
 hr {
@@ -208,7 +246,7 @@ hr {
 
 /* page Contact */
 #contact {
-  min-height: 100vh;
+  min-height: 30vh;
   padding-top: 7rem;
   background-color: var(--secondaryBackgroundColor);
 }
